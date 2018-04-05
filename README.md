@@ -21,7 +21,7 @@ import TextAnimation from 'ink-text-animation';
 render(
   <div>
     <TextAnimation>
-      <Text>Look at me, I'm moving!</Text>
+      <Text>{`Look at me, I'm moving!`}</Text>
     </TextAnimation>
   </div>
 );
