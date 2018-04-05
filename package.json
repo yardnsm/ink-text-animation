@@ -1,0 +1,66 @@
+{
+  "name": "ink-text-animation",
+  "version": "0.1.0",
+  "description": "A text animation component for Ink",
+  "keywords": [
+    "ink",
+    "animation",
+    "chalk",
+    "component",
+    "chalk-animation"
+  ],
+  "license": "MIT",
+  "author": "Yarden Sod-Moriah <yardnsm@gmail.com> (yardnsm.net)",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "repository": "yardnsm/ink-text-animation",
+  "scripts": {
+    "start": "npm run test:watch",
+    "build": "babel ./src --out-dir ./dist",
+    "lint": "eslint . --ignore-path .gitignore --ext .js,.jsx",
+    "pretest": "npm run build",
+    "test": "jest",
+    "posttest": "npm run lint",
+    "test:watch": "jest --watch",
+    "clean": "rm -rf ./dist",
+    "prepublish": "npm test && npm run build"
+  },
+  "dependencies": {
+    "chalk-animation": "^1.5.2",
+    "ink": "^0.4.1",
+    "prop-types": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.15.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^22.4.3"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "jest": {
+    "bail": true,
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/test/**/*.js?(x)",
+      "**/?(*.)(spec|test).js?(x)"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ],
+    "verbose": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "plugin:jest/recommended"
+  ],
+  "env": {
+    "jest": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "pragma": "h"
+    }
+  }
+}
