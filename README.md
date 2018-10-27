@@ -4,7 +4,7 @@
 
 > A text animation component for [Ink](https://github.com/vadimdemedes/ink/)
 
-![](media/screenshot.gif)
+![](.github/screenshot.gif)
 
 ## Install
 
