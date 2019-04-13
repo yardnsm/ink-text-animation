@@ -1,16 +1,12 @@
 {
   "parser": "babel-eslint",
-  "extends": [
-    "airbnb",
-    "plugin:jest/recommended"
-  ],
+  "extends": ["airbnb", "plugin:jest/recommended"],
   "env": {
     "jest": true,
     "node": true
   },
-  "settings": {
-    "react": {
-      "pragma": "h"
-    }
+  "rules": {
+    "no-control-regex": "off",
+    "react/destructuring-assignment": "off"
   }
 }
