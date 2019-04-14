@@ -8,6 +8,7 @@ const delays = {
   glitch: 55,
   radar: 50,
   neon: 500,
+  karaoke: 60,
 };
 
 class TextAnimation extends React.Component {
@@ -78,7 +79,7 @@ TextAnimation.defaultProps = {
 
 TextAnimation.propTypes = {
   children: PropTypes.oneOfType([PropTypes.string]).isRequired,
-  name: PropTypes.oneOf(['rainbow', 'pulse', 'glitch', 'radar', 'neon']),
+  name: PropTypes.oneOf(['rainbow', 'pulse', 'glitch', 'radar', 'neon', 'karaoke']),
   speed: PropTypes.number,
 };
 
