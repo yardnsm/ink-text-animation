@@ -15,25 +15,33 @@ $ npm install --save ink-text-animation
 ## Usage
 
 ```javascript
-import { h, render, Text } from 'ink';
+import React from 'react';
+import {render} from 'ink';
 import TextAnimation from 'ink-text-animation';
 
-render(
-  <div>
-    <TextAnimation>
-      <Text>{`Look at me, I'm moving!`}</Text>
-    </TextAnimation>
-  </div>
-);
+render(<TextAnimation>Look at me, I'm moving!</TextAnimation>);
+```
+
+## Example
+
+There is a simple example inside the `example` folder.
+To run it on the console you can type:
+
+```console
+$ npm run example
 ```
 
 ## API
 
 ### `<TextAnimation />`
 
-Accepts a string or an Ink component as `children`.
-
 #### Props
+
+##### children
+
+Type: `string`
+
+The text / sentence that will be displayed.
 
 ##### name
 
