@@ -1,13 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<TextAnimation /> should render with default animation 1`] = `"[38;2;255;21;0mL[39m[38;2;255;0;148mo[39m[38;2;192;0;255mr[39m[38;2;23;0;255me[39m[38;2;0;147;255mm[39m [38;2;0;255;194mi[39m[38;2;0;255;24mp[39m[38;2;145;255;0ms[39m[38;2;255;195;0mu[39m[38;2;255;25;0mm[39m"`;
+exports[`<TextAnimation /> should render with default animation 1`] = `"[38;5;196mL[39m[38;5;199mo[39m[38;5;165mr[39m[38;5;21me[39m[38;5;39mm[39m [38;5;50mi[39m[38;5;46mp[39m[38;5;154ms[39m[38;5;220mu[39m[38;5;196mm[39m"`;
 
 exports[`<TextAnimation /> should render with karaoke animation 1`] = `"[37mLorem ipsum[39m"`;
 
-exports[`<TextAnimation /> should render with neon animation 1`] = `"[1m[38;2;213;70;242mLorem ipsum[39m[22m"`;
+exports[`<TextAnimation /> should render with neon animation 1`] = `"[1m[38;5;171mLorem ipsum[39m[22m"`;
 
-exports[`<TextAnimation /> should render with pulse animation 1`] = `"[38;2;230;230;230mL[39m[38;2;230;230;230mo[39m[38;2;230;230;230mr[39m[38;2;243;123;123me[39m[38;2;255;16;16mm[39m [38;2;247;87;87mi[39m[38;2;238;159;159mp[39m[38;2;230;230;230ms[39m[38;2;230;230;230mu[39m[38;2;230;230;230mm[39m"`;
+exports[`<TextAnimation /> should render with pulse animation 1`] = `"[38;5;254mL[39m[38;5;254mo[39m[38;5;254mr[39m[38;5;210me[39m[38;5;196mm[39m [38;5;210mi[39m[38;5;217mp[39m[38;5;254ms[39m[38;5;254mu[39m[38;5;254mm[39m"`;
 
-exports[`<TextAnimation /> should render with radar animation 1`] = `"[38;2;127;127;127mL[39m"`;
+exports[`<TextAnimation /> should render with radar animation 1`] = `"[38;5;244mL[39m"`;
 
-exports[`<TextAnimation /> should render with rainbow animation 1`] = `"[38;2;255;21;0mL[39m[38;2;255;0;148mo[39m[38;2;192;0;255mr[39m[38;2;23;0;255me[39m[38;2;0;147;255mm[39m [38;2;0;255;194mi[39m[38;2;0;255;24mp[39m[38;2;145;255;0ms[39m[38;2;255;195;0mu[39m[38;2;255;25;0mm[39m"`;
+exports[`<TextAnimation /> should render with rainbow animation 1`] = `"[38;5;196mL[39m[38;5;199mo[39m[38;5;165mr[39m[38;5;21me[39m[38;5;39mm[39m [38;5;50mi[39m[38;5;46mp[39m[38;5;154ms[39m[38;5;220mu[39m[38;5;196mm[39m"`;
+
+exports[`<TextAnimation /> when changing the text prop should render new text 1`] = `"[38;5;196mL[39m[38;5;199mo[39m[38;5;165mr[39m[38;5;21me[39m[38;5;39mm[39m [38;5;50mi[39m[38;5;46mp[39m[38;5;154ms[39m[38;5;220mu[39m[38;5;196mm[39m"`;
+
+exports[`<TextAnimation /> when changing the text prop should render new text 2`] = `"[38;5;196mL[39m[38;5;199mo[39m[38;5;165mr[39m[38;5;21me[39m[38;5;39mm[39m [38;5;50mi[39m[38;5;46mp[39m[38;5;154ms[39m[38;5;220mu[39m[38;5;196mm[39m"`;
